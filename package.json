@@ -1,0 +1,29 @@
+{
+  "name": "online-store-backend",
+  "version": "1.0.0",
+  "description": "online-store-backend with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "store"
+  ],
+  "author": "edsonfervo16mx",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "handlebars": "^4.7.7",
+    "http-status": "^1.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.4",
+    "nodemailer": "^6.7.8",
+    "rand-token": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
